@@ -5,8 +5,15 @@ body_class: index
 
 .container.main-container{:role => "container"}
   %div.events-list{ role: 'events-list'}
-  %h1 Header
-  %p content
+  
+  -# редактироать здесь картинку:
+  %img{ src: 'http://lorempixel.com/g/400/200/' }
+  
+  -# редактироать здесь заголовок всей страницы
+  %h1
+    Заголовок
+  %p
+    содержимое
 
 .container-fluid.container.grid-items-container
   .row.grid-items{ role: "grid-items"}
